@@ -23,8 +23,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 from decouple import config
-SECRET_KEY = config('SECRET_KEY')
-DEBUG = config('DEBUG', default=False, cast=bool)
+SECRET_KEY = '!qn=sz30piyhu@ojctjc4p+x0u*+yd(s%2jj4=2pdrxx@py=ed'
+DEBUG = True
 
 ALLOWED_HOSTS = ['rajhackathon.herokuapp.com']
 
