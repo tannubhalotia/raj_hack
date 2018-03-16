@@ -1,0 +1,1 @@
+web: gunicorn rajhack.wsgi --log-file -
